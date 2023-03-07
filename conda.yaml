@@ -1,0 +1,13 @@
+name: cml_dvc_case
+
+channels:
+  - conda-forge
+
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - dvc==2.45.1
+      - pandas==1.5.3
+      - scikit-learn==1.2.1
+      - matplotlib==3.7.0
